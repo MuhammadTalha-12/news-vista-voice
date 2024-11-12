@@ -1,0 +1,19 @@
+/* src/components/HomeButton.css */
+.home-button {
+    position: absolute; /* Position it in the top left corner */
+    top: 20px; /* Adjust vertical position */
+    left: 20px; /* Adjust horizontal position */
+    padding: 10px 15px;
+    background-color: #00796b; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    z-index: 1000; /* Ensure it is on top of other elements */
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #005f4b; /* Darker shade on hover */
+}
